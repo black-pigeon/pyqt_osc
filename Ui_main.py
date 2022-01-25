@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file '/home/mp/wcc_demo/python_work/pyqt/pyqt_osc/main.ui'
+#
+# Created by: PyQt5 UI code generator 5.10.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(1121, 598)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.groupBox = QtWidgets.QGroupBox(self.centralwidget)
+        self.groupBox.setGeometry(QtCore.QRect(0, 0, 751, 541))
+        self.groupBox.setObjectName("groupBox")
+        self.btn_reset = QtWidgets.QPushButton(self.centralwidget)
+        self.btn_reset.setGeometry(QtCore.QRect(870, 480, 121, 31))
+        self.btn_reset.setObjectName("btn_reset")
+        self.splitter_3 = QtWidgets.QSplitter(self.centralwidget)
+        self.splitter_3.setGeometry(QtCore.QRect(790, 420, 251, 29))
+        self.splitter_3.setOrientation(QtCore.Qt.Horizontal)
+        self.splitter_3.setObjectName("splitter_3")
+        self.radiobtn_ch1 = QtWidgets.QRadioButton(self.splitter_3)
+        self.radiobtn_ch1.setObjectName("radiobtn_ch1")
+        self.radiobtn_ch2 = QtWidgets.QRadioButton(self.splitter_3)
+        self.radiobtn_ch2.setObjectName("radiobtn_ch2")
+        self.splitter = QtWidgets.QSplitter(self.centralwidget)
+        self.splitter.setGeometry(QtCore.QRect(750, 240, 361, 51))
+        self.splitter.setOrientation(QtCore.Qt.Horizontal)
+        self.splitter.setObjectName("splitter")
+        self.splitter_5 = QtWidgets.QSplitter(self.splitter)
+        self.splitter_5.setOrientation(QtCore.Qt.Horizontal)
+        self.splitter_5.setObjectName("splitter_5")
+        self.dial_ch1_bais = QtWidgets.QDial(self.splitter_5)
+        self.dial_ch1_bais.setMaximum(5)
+        self.dial_ch1_bais.setObjectName("dial_ch1_bais")
+        self.dial_ch2_bais = QtWidgets.QDial(self.splitter_5)
+        self.dial_ch2_bais.setObjectName("dial_ch2_bais")
+        self.dial_time_bais = QtWidgets.QDial(self.splitter_5)
+        self.dial_time_bais.setMaximum(4)
+        self.dial_time_bais.setObjectName("dial_time_bais")
+        self.splitter_2 = QtWidgets.QSplitter(self.centralwidget)
+        self.splitter_2.setGeometry(QtCore.QRect(750, 310, 361, 100))
+        self.splitter_2.setOrientation(QtCore.Qt.Horizontal)
+        self.splitter_2.setObjectName("splitter_2")
+        self.splitter_4 = QtWidgets.QSplitter(self.splitter_2)
+        self.splitter_4.setOrientation(QtCore.Qt.Horizontal)
+        self.splitter_4.setObjectName("splitter_4")
+        self.dial_ch1_amp = QtWidgets.QDial(self.splitter_4)
+        self.dial_ch1_amp.setMaximum(5)
+        self.dial_ch1_amp.setObjectName("dial_ch1_amp")
+        self.dial_ch2_amp = QtWidgets.QDial(self.splitter_4)
+        self.dial_ch2_amp.setMaximum(5)
+        self.dial_ch2_amp.setObjectName("dial_ch2_amp")
+        self.dial_time_scale = QtWidgets.QDial(self.splitter_4)
+        self.dial_time_scale.setMaximum(4)
+        self.dial_time_scale.setObjectName("dial_time_scale")
+        self.splitter_6 = QtWidgets.QSplitter(self.centralwidget)
+        self.splitter_6.setGeometry(QtCore.QRect(820, 130, 261, 101))
+        self.splitter_6.setOrientation(QtCore.Qt.Vertical)
+        self.splitter_6.setObjectName("splitter_6")
+        self.cursor_ch1 = QtWidgets.QSlider(self.splitter_6)
+        self.cursor_ch1.setOrientation(QtCore.Qt.Horizontal)
+        self.cursor_ch1.setObjectName("cursor_ch1")
+        self.cursor_ch2 = QtWidgets.QSlider(self.splitter_6)
+        self.cursor_ch2.setOrientation(QtCore.Qt.Horizontal)
+        self.cursor_ch2.setObjectName("cursor_ch2")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1121, 28))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.groupBox.setTitle(_translate("MainWindow", "display"))
+        self.btn_reset.setText(_translate("MainWindow", "Reset"))
+        self.radiobtn_ch1.setText(_translate("MainWindow", "ch1"))
+        self.radiobtn_ch2.setText(_translate("MainWindow", "ch2"))
+
