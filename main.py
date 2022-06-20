@@ -69,7 +69,7 @@ class Scope(MplCanvas):
             plot_refs = self.axes.plot(self.x, self.y, 'r')
             self._plot_ref = plot_refs[0]
         else:
-            print(self.amp)
+            # print(self.amp)
             
             self._plot_ref.set_ydata(self.y)
             self._plot_ref.set_xdata(self.x)
